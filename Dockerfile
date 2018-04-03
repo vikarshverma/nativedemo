@@ -12,4 +12,4 @@ ADD . /app
 EXPOSE 3000
 EXPOSE 35729
 
-ENTRYPOINT ["npm", "start"]
+ENTRYPOINT ["npm", "start", "build"]
